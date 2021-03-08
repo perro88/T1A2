@@ -1,2 +1,40 @@
+nav {
+  display: flex;
+  font-size: 2em;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0px 250px;
+  box-sizing: border-box;
+  margin: auto;
+}
 
-/*# sourceMappingURL=home.css.map *//*# sourceMappingURL=home.css.map */
+article {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px green;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+img {
+  box-sizing: border-box;
+  margin: auto;
+  border: 2px solid orange;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+h1 {
+  display: inline-block;
+  border: solid 2px hotpink;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+  border: solid 2px orange;
+  box-sizing: border-box;
+  text-align: center;
+}/*# sourceMappingURL=home.css.map */
