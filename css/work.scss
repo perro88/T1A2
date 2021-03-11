@@ -33,6 +33,7 @@ article {
     margin-top: 10px;
   }
 }
+// tablet
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
   header {
     justify-content: flex-end;
@@ -43,11 +44,12 @@ article {
     }
   }
   article {
-    width: 150px;
+    width: 250px;
     justify-content: space-around;
     margin: 15px;
   }
 }
+// desktop
 @media only screen and (min-width: 1025px) {
   header {
     justify-content: flex-end;
