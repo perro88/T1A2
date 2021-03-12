@@ -8,12 +8,11 @@
   }
 }
 
-.container-flex {
+main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 h1 {
@@ -26,7 +25,6 @@ h1 {
 img {
   border-radius: 20%;
   box-shadow: 5px 5px black;
-  margin-left: 25px;
   animation-name: slide;
   animation-duration: 3s;
 }
@@ -55,11 +53,8 @@ article {
 
 // tablet
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
-  img {
-    margin-left: 90px;
-  }
   article {
-    width: 500px;
+    width: 60%;
   }
 }
 
@@ -68,14 +63,15 @@ article {
   h1 {
     font-size: 4em;
   }
-  .container-flex {
+
+  main {
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
   }
+
   article {
-    width: 500px;
+    width: 40%;
     font-size: 1.8em;
   }
   img {

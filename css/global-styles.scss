@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-  background-color: black;
+  background-color: transparent;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -21,7 +21,7 @@ nav {
 
 a {
   color: white;
-  font-size: 1.4em;
+  font-size: 1.6em;
   font-style: italic;
   font-weight: bolder;
   font-family: "Amatic SC", cursive;
@@ -32,6 +32,7 @@ a:hover {
 }
 
 h1 {
+  color: white;
   font-size: 3em;
   text-shadow: 2px 2px rgb(20, 19, 19);
   font-family: "Lobster", cursive;
@@ -56,12 +57,12 @@ footer:hover {
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
   nav {
-    width: 50%;
+    background-color: transparent;
     justify-content: flex-start;
     a {
-      padding-right: 50px;
+      padding-right: 10px;
       &:first-child {
-        padding-left: 30px;
+        padding-left: 10px;
       }
     }
   }
@@ -70,7 +71,7 @@ footer:hover {
 // desktop
 @media only screen and (min-width: 1025px) {
   nav {
-    width: 20%;
+    background-color: transparent;
     justify-content: flex-start;
     a {
       padding-right: 10px;
