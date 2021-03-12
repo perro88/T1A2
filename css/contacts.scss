@@ -1,6 +1,13 @@
-body {
-  background-color: #3a3c35;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%23030303' fill-opacity='0.35' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
+@keyframes nudge {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 main {
@@ -15,6 +22,15 @@ img {
   width: 400px;
   margin-bottom: 30px;
 }
+.image-one{
+  animation-name: nudge;
+  animation-duration: 3s;
+  border-radius: 0% 50%;
+}
+
+img:hover {
+  transform: rotate(20deg);
+}
 
 .links {
   font-family: "Amatic SC", cursive;
@@ -25,11 +41,37 @@ img {
 .contact-form {
   width: 200px;
   margin-bottom: 30px;
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  font-size: 3em;
+  text-shadow: 2px 2px rgb(20, 19, 19);
+  font-family: "Lobster", cursive;
+}
+
+.button:hover {
+  color: #caa472;
 }
 
 p {
   text-align: center;
   padding: 50px;
+  color: #caa472;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Amatic SC", cursive;
+  text-shadow: 1px 1px black;
 }
 
 // desktop

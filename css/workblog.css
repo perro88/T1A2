@@ -1,0 +1,81 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Lobster", cursive;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  background-color: transparent;
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  width: 150px;
+  margin: 10px;
+  color: #caa472;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: 1px 1px black;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin-top: 10px;
+}
+
+#dates {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+.item:hover {
+  transform: rotate(360deg) scale(1.5);
+  transition: 3s;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  header {
+    justify-content: flex-end;
+    margin-right: 40px;
+    font-size: 1.5em;
+  }
+  header a {
+    margin-left: 30px;
+  }
+
+  article {
+    width: 250px;
+    justify-content: space-around;
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  header {
+    justify-content: flex-end;
+    margin-right: 40px;
+    font-size: 1.5em;
+  }
+  header a {
+    margin-left: 30px;
+  }
+
+  article {
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+  }
+}/*# sourceMappingURL=workblog.css.map */
