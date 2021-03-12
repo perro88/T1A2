@@ -1,3 +1,4 @@
+// slide picture from left of page
 @keyframes slide {
   0% {
     transform: translate(-800px);
@@ -59,6 +60,8 @@ article {
 }
 
 // desktop
+// flex direction changes and order of content changes
+
 @media only screen and (min-width: 1025px) {
   h1 {
     font-size: 4em;

@@ -46,6 +46,8 @@ p {
 }
 
 // tablet
+// move header to the right of the screen 
+
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
   header {
     justify-content: flex-end;
@@ -62,6 +64,9 @@ p {
   }
 }
 // desktop
+// header on the right of the screen 
+// have four article in a row instead of two 
+
 @media only screen and (min-width: 1025px) {
     header {
     justify-content: flex-end;

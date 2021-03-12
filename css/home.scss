@@ -1,3 +1,4 @@
+// profile pic enlarge
 @keyframes grow {
   0% {
     transform: scale (1);
@@ -16,6 +17,7 @@ article {
   align-items: center;
   height: 100vh;
 
+  // profile pic
   img {
     border-radius: 50%;
     box-shadow: 2px 2px rgb(20, 19, 19);

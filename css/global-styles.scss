@@ -54,6 +54,7 @@ footer:hover {
   color: #caa472;
 }
 // tablet
+// nav moves to left side of page 
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
   nav {
@@ -69,6 +70,8 @@ footer:hover {
 }
 
 // desktop
+// nav bar moves to left side of page 
+
 @media only screen and (min-width: 1025px) {
   nav {
     background-color: transparent;

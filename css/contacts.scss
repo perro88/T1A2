@@ -1,3 +1,4 @@
+// main image rotates a little bit 
 @keyframes nudge {
   0% {
     transform: rotate(0deg);
@@ -74,6 +75,8 @@ p {
 }
 
 // desktop
+// change flex direction to re-order content for bigger screen 
+
 @media only screen and (min-width: 1025px) {
   main {
     flex-direction: row;
