@@ -42,7 +42,7 @@ p {
 }
 
 .item:hover {
-  transform: rotate(360deg) scale(1.5);
+  transform: scale(1.5);
   transition: 3s;
 }
 

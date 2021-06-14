@@ -41,12 +41,12 @@ p {
 }
 
 .item:hover {
-  transform: rotate(360deg) scale(1.5);
+  transform: scale(1.5);
   transition: 3s;
 }
 
 // tablet
-// move header to the right of the screen 
+// move header to the right of the screen
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
   header {
@@ -64,11 +64,11 @@ p {
   }
 }
 // desktop
-// header on the right of the screen 
-// have four article in a row instead of two 
+// header on the right of the screen
+// have four article in a row instead of two
 
 @media only screen and (min-width: 1025px) {
-    header {
+  header {
     justify-content: flex-end;
     margin-right: 40px;
     font-size: 1.5em;
