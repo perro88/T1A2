@@ -1,173 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>James Perrin Portfolio</title>
-</head>
-
-<body>
-  <canvas id="bg"></canvas>
-  <nav>
-    <ul id="nav">
-      <li class="navList">
-        <a href="#about">About</a>
-      </li>
-      <li class="navList">
-        <a href="#projects">Projects</a>
-      </li>
-      <li class="navList">
-        <a href="#work">Work</a>
-      </li>
-      <li class="navList">
-        <a href="#contact">Contacts</a>
-      </li>
-    </ul>
-  </nav>
-  <main>
-    <header>
-      <h1 id="top">James Perrin</h1>
-      <p>Driller <br> Miner <br> Junior Web Developer</p>
-    </header>
-    
-    <blockquote>
-      <p id="quote"></p>
-      <br>
-      <br>
-      <p id="author">-</p>
-    </blockquote>
-
-    <section id="about">
-      <div class="right">
-        <h2>About Me</h2>
-        <p>I am a Driller/Mine worker with significant experience and training in
-          surface and underground operations. Currently I am completing a
-          Diploma of Information Technology with Coder Academy to become a
-          Fullstack Developer. My aim is to merge my skills to develop high
-          quality applications for the resources industries.</p>
-        </div>
-    </section>
-
-    <section id="projects" class="left">
-      <div class="projects">
-        <h2>Projects</h2>
-        <p>
-          <h3>Web Development</h3>
-          <span>
-            <ul>
-              <li><a href="https://drillersconnect.herokuapp.com/">Drillers Connect</a> - A job search application created
-                with Ruby on Rails. Focusing on networking Drillers with Contractors.</li>
-              <br>
-              <li>Pre-Start Vehicle Check - Written in Ruby. It is a basic vehicle pre-start terminal application.
-              </li>
-              <br>
-              <li><a href="https://fast-hamlet-35955.herokuapp.com/">Base Converter</a> - A simple numerical base
-                converter app developed with Rails
-              </li>
-            </ul>
-            <br>
-            **All applications available through GitHub**.
-          </span>
-        </p>
-      </div>
-    </section>
-
-    <blockquote id="joke" class="jokes">
-      <p id="setUp"></p>
-      <p id="punchline"></p>
-    </blockquote>
-
-    <section id="work" >
-      <h2 id="workHeading">Work History</h2>
-      <article id="drill" class="right">
-        <img src="drillrigday.jpg " alt="Onshore drill rig" width="500" />
-        <p>
-          <h3>Oil and Gas</h3>
-          <h4> <a href="https://www.ensignenergy.com/">Ensign Energy Services</a><br>(Central Qld, Moomba S.A.)</h4>
-          <span>
-            <ul>
-              <li>Onshore Oil and Gas Super single Automated Drill Rigs (ADR)</li>
-              <li>Experience with the latest LMS programs and drilling technologies</li>
-              <li>Rigs 958, 966, 950, 968, 964.</li>
-              <li>Santos, Westside and Origin sites</li>
-              <li>High pace and high safety standards</li>
-              <li>High temperatures and challenging environments</li>
-            </ul>
-          </span>
-        </p>
-      </article>
-      <br>
-      <article id="underground" class="left">
-        <img src="undergroundpic.jpg" alt="James working underground" width="500" />
-        <p>
-          <h3>Underground Mining and Diamond Drilling</h3>
-          <h4> <a href="https://www.boartlongyear.com/">Boart Longyear </a>(Cloncurry Qld, Douglas Daly N.T.)</h4>
-          <span>
-            <ul>
-              <li>Working underground at Dugald River and Cosmo Deeps mine sites</li>
-              <li>Experience with cutting edge underground technologies</li>
-              <li>Experience with MDR150 and MDR500 and LM drill rigs</li>
-              <li>Client with a high safety standards in a high pace environment</li>
-              <li>Working in high temperatures and challenging conditions</li>
-            </ul>
-          </span>
-        </p>
-      </article>
-      <br>
-      <article id="remote" class="right">
-        <img src="530100_4279433874695_476428501_n.jpg" alt="Great Southern Bite" width="500" />
-        <p>
-          <h3><strong>Remote Area Construction</strong></h3>
-          <span>
-            <ul>
-              <li>Building bridges and precast tilt panels for high rises in the Northern Territory</li>
-              <li>Building houses in Arnhem Land</li>
-              <li>Constructing mining structures from Western Australia to Queensland</li>
-            </ul>
-          </span>
-        </p>
-      </article>
-    </section>
-
-    <blockquote id="jokeOne" class="jokes">
-      <p id="dadJoke"></p>
-    </blockquote>
-    <section id="contact" class="left">
-      <h2>Contacts</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="css/global-styles.css"
+      <!-- integrity="sha384-2xTzGbCu2eMJt7b6oqXxYYTndI3BnKktNfdKYUEqHuH93T2zg0pcDPdVqpYMDSjF" -->
+    />
+    <link
+      rel="stylesheet"
+      href="css/home.css"
+      integrity="sha384-xQS3L+kISmzebbpNb17scHBEx5dDm9Ox3bEJu2WBVyuOz96jMbcBLGlWYr6XdjCx"
+    />
+    <title>James Perrin Home</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="workblog.html">Work History</a>
+      <a href="contacts.html">Contacts</a>
+    </nav>
+    <article>
+      <img
+        src="images/jamesportfolio1.jpg"
+        alt="Picture of James"
+        width="300px"
+        height="300px"
+      />
+      <h1>James Perrin</h1>
       <p>
-        <div class="links">
-          <a href="https://www.linkedin.com/in/james-perrin-7a869231/">
-            <img src="LI-Logo.png" alt="linkedin link" width="200" />
-          </a>
-        </div>
-        <div class="links">
-          <a href="https://github.com/perro88">
-            <img src="GitHub-Mark-Light-120px-plus.png" alt="Github link" width="100" />
-          </a>
-        </div>
+        Don't let this page distract you from the fact that there are 48 million
+        kangaroos in Australia and 3,457,380 inhabitants in Uraguay. So if the
+        kangaroos decided to invade Uraguay, each Urugayan would have to fight
+        14 kangaroos!
       </p>
-      <p id="contactText">
-        Connect with me through
-        <a href="https://www.linkedin.com/in/james-perrin-7a869231/">Linked In</a>
-        and
-        <a href="https://github.com/perro88">Github</a>
-        <br> OR <br> Download my <a href="JamesPerrin-Resume.pdf">Resume</a>
-      </p>
-      <a href="JamesPerrin-Resume.pdf">
-        <img 
-        src="resumepng.png" 
-        alt="Resume"
-        width="50px"> 
-      </a>
-    </section>
-    <footer>
-      <a href="#top">Back to Top</a>
-    </footer>
-  </main>
-  <div id="app"></div>
-  <script type="module" src="/main.js"></script>
-</body>
-
+    </article>
+    <footer>&copy James Perrin 2021</footer>
+  </body>
 </html>
