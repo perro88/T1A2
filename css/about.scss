@@ -1,0 +1,84 @@
+// slide picture from left of page
+@keyframes slide {
+  0% {
+    transform: translate(-800px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+img {
+  border-radius: 20%;
+  box-shadow: 5px 5px black;
+  animation-name: slide;
+  animation-duration: 3s;
+}
+
+article {
+  background: rgb(210, 209, 135);
+  background: linear-gradient(
+    90deg,
+    rgba(210, 209, 135, 1) 0%,
+    rgba(225, 217, 175, 1) 18%,
+    rgba(255, 249, 176, 1) 50%
+  );
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  margin-top: 20px;
+  h3 {
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+  }
+  p {
+    padding: 20px;
+  }
+}
+
+// tablet
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  article {
+    width: 60%;
+  }
+}
+
+// desktop
+// flex direction changes and order of content changes
+
+@media only screen and (min-width: 1025px) {
+  h1 {
+    font-size: 4em;
+  }
+
+  main {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  article {
+    width: 40%;
+    font-size: 1.8em;
+  }
+  img {
+    width: 500px;
+    height: 500px;
+  }
+}
